@@ -1071,6 +1071,22 @@
     </profile>
 
     <profile>
+      <id>Scala-1.12</id>
+      <activation>
+        <property>
+          <name>Scala-1.12</name>
+        </property>
+      </activation>
+      <properties>
+        <scala.binary.version>2.12</scala.binary.version>
+        <scala.version>${scala-2.12.version}</scala.version>
+        <spark.version>${spark.scala-2.12.version}</spark.version>
+        <netty.version>${netty.spark-2.12.version}</netty.version>
+        <json4s.version>${json4s.spark-2.12.version}</json4s.version>
+      </properties>
+    </profile>
+
+    <profile>
       <id>spark-3.1</id>
       <activation>
         <property>
@@ -1098,7 +1114,7 @@
       </properties>
     </profile>
 
-    <profile>
+  <profile>
       <id>spark-3.3</id>
       <activation>
         <property>
@@ -1107,9 +1123,7 @@
       </activation>
       <properties>
         <java.version>1.8</java.version>
-        <curator.version>2.12.0</curator.version>
-        <httpcore.version>4.4.14</httpcore.version>
-        <httpclient.version>4.5.13</httpclient.version>
+        <scala-2.12.version>2.12.15</scala-2.12.version>
         <json4s.spark-2.12.version>3.7.0-M11</json4s.spark-2.12.version>
         <spark.scala-2.12.version>3.3.1</spark.scala-2.12.version>
         <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
@@ -1119,7 +1133,6 @@
 <!--    scala 2.12 -->
    <!--
         <scala.binary.version>2.12</scala.binary.version>
-        <scala-2.12.version>2.12.15</scala-2.12.version>
         <json4s.version>${json4s.spark-2.12.version}</json4s.version>
         <netty.version>${netty.spark-2.12.version}</netty.version>
 
@@ -1130,6 +1143,8 @@
         <json4s.version>${json4s.spark-2.11.version}</json4s.version>
         <netty.version>${netty.spark-2.11.version}</netty.version>
 <!--
+        <junit.version>4.13.2</junit.version>
+        <metrics.version>4.2.7</metrics.version>
         <hadoop.version>3.3.2</hadoop.version>
         <kubernetes.client.version>5.12.2</kubernetes.client.version>
         <jackson.version>2.13.4</jackson.version>
@@ -1137,11 +1152,68 @@
         <py4j.version>0.10.9.5</py4j.version>
         <commons-codec.version>1.15</commons-codec.version>
 -->
+        <junit.version>4.11</junit.version>
+        <metrics.version>3.1.0</metrics.version>
         <hadoop.version>2.7.3</hadoop.version>
         <kubernetes.client.version>4.13.1</kubernetes.client.version>
         <jackson.version>2.10.3</jackson.version>
         <py4j.version>0.10.9</py4j.version>
         <commons-codec.version>1.9</commons-codec.version>
+
+        <json4s.spark-2.11.version>3.5.3</json4s.spark-2.11.version>
+        <libthrift.version>0.9.3</libthrift.version>
+        <hive.version>3.0.0</hive.version>
+       
+        <spark.bin.download.url>
+          https://archive.apache.org/dist/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
+        </spark.bin.download.url>
+        <spark.bin.name>spark-3.3.1-bin-hadoop3</spark.bin.name>
+      </properties>
+    </profile>
+
+    <profile>
+      <id>spark-3.3.1</id>
+      <activation>
+        <property>
+          <name>spark-3.3.1</name>
+        </property>
+      </activation>
+      <properties>
+        <java.version>1.8</java.version>
+        <curator.version>2.12.0</curator.version>
+        <httpcore.version>4.4.14</httpcore.version>
+        <httpclient.version>4.5.13</httpclient.version>
+        <scala-2.12.version>2.12.15</scala-2.12.version>
+        <json4s.spark-2.12.version>3.7.0-M11</json4s.spark-2.12.version>
+        <spark.scala-2.12.version>3.3.1</spark.scala-2.12.version>
+        <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
+        <netty.spark-2.12.version>4.1.74.Final</netty.spark-2.12.version>
+        <netty.spark-2.11.version>4.1.74.Final</netty.spark-2.11.version>
+        <spark.version>${spark.scala-2.11.version}</spark.version> 
+       <!--   scala 2.12 -->
+   <!--
+        <scala.binary.version>2.12</scala.binary.version>
+        <json4s.version>${json4s.spark-2.12.version}</json4s.version>
+        <netty.version>${netty.spark-2.12.version}</netty.version>
+    -->        
+       <!--   scala 2.12 -->
+       
+       <!--   scala 2.11 -->     
+        <scala.binary.version>2.11</scala.binary.version>
+        <scala.version>${scala-2.11.version}</scala.version>
+        <json4s.version>${json4s.spark-2.11.version}</json4s.version>
+        <netty.version>${netty.spark-2.11.version}</netty.version>
+      <!--    scala 2.11 -->     
+        
+        <junit.version>4.13.2</junit.version>
+        <metrics.version>4.2.7</metrics.version>
+        <hadoop.version>3.3.2</hadoop.version>
+        <kubernetes.client.version>5.12.2</kubernetes.client.version>
+        <jackson.version>2.13.4</jackson.version>
+        <zookeeper.version>3.6.2</zookeeper.version>
+        <py4j.version>0.10.9.5</py4j.version>
+        <commons-codec.version>1.15</commons-codec.version>
+
 
         <json4s.spark-2.11.version>3.5.3</json4s.spark-2.11.version>
         <libthrift.version>0.9.3</libthrift.version>
