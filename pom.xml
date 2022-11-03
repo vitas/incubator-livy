@@ -268,7 +268,7 @@
       <dependency>
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>
-        <version>1.2.16</version>
+        <version>1.2.17</version>
       </dependency>
 
       <dependency>
@@ -1096,15 +1096,12 @@
       <properties>
         <spark.scala-2.12.version>3.1.3</spark.scala-2.12.version>
         <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
-        <spark.version>${spark.scala-2.11.version}</spark.version>
         <netty.spark-2.12.version>4.1.47.Final</netty.spark-2.12.version>
         <netty.spark-2.11.version>4.1.47.Final</netty.spark-2.11.version>
-        <netty.version>${netty.spark-2.11.version}</netty.version>
         <java.version>1.8</java.version>
         <py4j.version>0.10.9</py4j.version>
         <json4s.spark-2.11.version>3.5.3</json4s.spark-2.11.version>
         <json4s.spark-2.12.version>3.6.6</json4s.spark-2.12.version>
-        <json4s.version>${json4s.spark-2.11.version}</json4s.version>
         <spark.bin.download.url>
           https://archive.apache.org/dist/spark/spark-3.1.3/spark-3.1.3-bin-hadoop3.2.tgz
         </spark.bin.download.url>
@@ -1129,7 +1126,6 @@
         <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
         <netty.spark-2.12.version>4.1.74.Final</netty.spark-2.12.version>
         <netty.spark-2.11.version>4.1.74.Final</netty.spark-2.11.version>
-        <spark.version>${spark.scala-2.11.version}</spark.version> 
 
         <junit.version>4.11</junit.version>
         <metrics.version>3.1.0</metrics.version>
@@ -1139,7 +1135,6 @@
         <py4j.version>0.10.9</py4j.version>
         <commons-codec.version>1.9</commons-codec.version>
 
-        <json4s.spark-2.11.version>3.5.3</json4s.spark-2.11.version>
         <libthrift.version>0.9.3</libthrift.version>
         <hive.version>3.0.0</hive.version>
        
@@ -1168,13 +1163,7 @@
         <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
         <netty.spark-2.12.version>4.1.74.Final</netty.spark-2.12.version>
         <netty.spark-2.11.version>4.1.74.Final</netty.spark-2.11.version>
-        <spark.version>${spark.scala-2.11.version}</spark.version> 
    
-        <scala.binary.version>2.11</scala.binary.version>
-        <scala.version>${scala-2.11.version}</scala.version>
-        <json4s.version>${json4s.spark-2.11.version}</json4s.version>
-        <netty.version>${netty.spark-2.11.version}</netty.version>
-        
         <junit.version>4.13.2</junit.version>
         <metrics.version>4.2.7</metrics.version>
         <hadoop.version>3.3.2</hadoop.version>
@@ -1184,9 +1173,8 @@
         <py4j.version>0.10.9.5</py4j.version>
         <commons-codec.version>1.15</commons-codec.version>
 
-        <json4s.spark-2.11.version>3.5.3</json4s.spark-2.11.version>
-        <libthrift.version>0.9.3</libthrift.version>
-        <hive.version>3.0.0</hive.version>
+        <libthrift.version>0.17.0</libthrift.version>
+        <hive.version>3.1.3</hive.version>
        
         <spark.bin.download.url>
           https://archive.apache.org/dist/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
