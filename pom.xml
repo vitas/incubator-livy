@@ -1080,7 +1080,7 @@
       <properties>
         <spark.scala-2.12.version>3.1.1</spark.scala-2.12.version>
         <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
-        <spark.version>${spark.scala-2.11.version}</spark.version>
+        <spark.version>${spark.scala-2.12.version}</spark.version>
         <netty.spark-2.12.version>4.1.47.Final</netty.spark-2.12.version>
         <netty.spark-2.11.version>4.1.47.Final</netty.spark-2.11.version>
         <netty.version>${netty.spark-2.11.version}</netty.version>
@@ -1115,11 +1115,11 @@
         <spark.scala-2.11.version>2.4.5</spark.scala-2.11.version>
         <netty.spark-2.12.version>4.1.74.Final</netty.spark-2.12.version>
         <netty.spark-2.11.version>4.1.74.Final</netty.spark-2.11.version>
+        <spark.version>${spark.scala-2.12.version}</spark.version> 
 <!--    scala 2.12 -->
    <!--
         <scala.binary.version>2.12</scala.binary.version>
         <scala-2.12.version>2.12.15</scala-2.12.version>
-        <spark.version>${spark.scala-2.12.version}</spark.version> 
         <json4s.version>${json4s.spark-2.12.version}</json4s.version>
         <netty.version>${netty.spark-2.12.version}</netty.version>
 
@@ -1127,7 +1127,6 @@
 <!--    scala 2.11 -->     
         <scala.binary.version>2.11</scala.binary.version>
         <scala.version>${scala-2.11.version}</scala.version>
-        <spark.version>${spark.scala-2.11.version}</spark.version>
         <json4s.version>${json4s.spark-2.11.version}</json4s.version>
         <netty.version>${netty.spark-2.11.version}</netty.version>
 <!--
