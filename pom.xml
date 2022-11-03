@@ -84,7 +84,7 @@
     <spark.scala-2.11.version>2.4.8</spark.scala-2.11.version>
     <spark.scala-2.12.version>3.3.1</spark.scala-2.12.version>
     <spark.version>${spark.scala-2.12.version}</spark.version>
-    <kubernetes.client.version>4.6.4</kubernetes.client.version>
+    <kubernetes.client.version>4.13.3</kubernetes.client.version>
     <hive.version>3.0.0</hive.version>
     <commons-codec.version>1.9</commons-codec.version>
     <httpclient.version>4.5.13</httpclient.version>
@@ -1121,7 +1121,7 @@
         <httpcore.version>4.4.14</httpcore.version>
         <httpclient.version>4.5.13</httpclient.version>
         <hadoop.version>3.3.2</hadoop.version>
-        <hive.version>2.3.9</hive.version>
+        <hive.version>3.0.0</hive.version>
         <json4s.version>${json4s.spark-2.12.version}</json4s.version>
         <spark.bin.download.url>
           https://archive.apache.org/dist/spark/spark-3.3.1/spark-3.3.1-bin-hadoop3.tgz
